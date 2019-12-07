@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href='bootstrap-4.1.2-dist/css/bootstrap.css' type='text/css' rel='stylesheet'/>
-    </head>
-    <body>
-        <!--header, navbar-->
-        <nav class="nav nav-pills nav-justified container">
-            <a class="nav-item nav-link" href="./index.html">Home</a>
-            <a class="nav-item nav-link" href="./xu_aboutme.html">About Me</a>
-            <a class="nav-item nav-link" href="./xu_resume.html">Resume</a>
-            <div class="nav-item nav-link active">Projects</div>
-            <a class="nav-item nav-link" href="./xu_contact_me.html">Contact Me</a>
-        </nav>
-        <!--header-->
-        <div class="jumbotron">
-            <div class="container">
-                <h1>
-                    <strong class="text-success">Projects</strong>
+
+<head>
+	<link href='bootstrap-4.4.0-dist/css/bootstrap.css' type='text/css' rel='stylesheet' />
+</head>
+
+<body>
+	<!--header, navbar-->
+	<nav class="nav nav-pills nav-justified container">
+		<a class="nav-item nav-link" href="./index.html">Home</a>
+		<a class="nav-item nav-link" href="./xu_aboutme.html">About Me</a>
+		<a class="nav-item nav-link" href="./xu_resume.html">Resume</a>
+		<div class="nav-item nav-link active">Projects</div>
+		<a class="nav-item nav-link" href="./xu_contact_me.html">Contact Me</a>
+	</nav>
+	<!--header-->
+	<div class="jumbotron">
+		<div class="container">
+			<h1>
+				<strong class="text-success">Projects</strong>
                 </h1>
                 <h3 class="text-info">Derek Xu</h3>
             </div>
@@ -28,14 +30,13 @@
                 <!--text-->
                 <h3 class="text-info" id="AIP">App Inventor Project</h3>
                 <!--Class done for, duration-->
-                <h6>
-                    <ul>
-                        <li>Completed for Computer Science Principles class, freshman year</li>
-                        <li>Completed from September 18, 2018 to October 5, 2018, for 3 weeks</li>
-                    </ul>
-                </h6>
+                <p>
+                    <em>
+                        Computer Science Principles, 3 weeks from September 18, 2018 to October 5, 2018
+                    </em>
+                </p>
                 <p class="p-2 bd-highlight medium">
-                    In this project, a partner and I used MIT's 
+                    In this project, a partner and I used MIT's
                     <a href="http://appinventor.mit.edu/explore/index-2.html" target="_blank">AppInventor</a>
                     to create an Android app.
                     My account stored our app, and most of my work was focused on programming. 
@@ -49,31 +50,29 @@
                 </p>
             </div>
             <!--images-->
-            <div class="d-flex flex-row bd-highlight mb-3">
-                <div class="card col-sm-4 badge-warning">
-                    <div class="text-center">
-                        <img src='images/appinventor_code.png' width="150px" height="240px" class="p-2 bd-highlight rounded"/>
-                    </div>
-                    <p>Most of the code for our App Inventor app.</p>
-                </div>
-                <div class="card col-sm-4 badge-warning">
-                    <div class="text-center">
-                        <img src='images/game.png' width="150px" height="240px" class="p-2 bd-highlight rounded"/>
-                    </div>
-                    <p>Design for the game screen in our app.</p>
-                </div>
-                <div class="card col-sm-4 badge-warning">
-                    <div class="text-center">
-                        <img src='images/comments.png' width="150px" height="240px" class="p-2 bd-highlight rounded"/>
-                    </div>
-                    <p>
+            <table class="table table-success table-bordered">
+                <tr>
+                    <td class="text-center">
+                        <img src='images/appinventor_code.png' width="150px" height="240px"/>
+                    </td>
+                    <td class="text-center">
+                        <img src='images/game.png' width="150px" height="240px"/>
+                    </td>
+                    <td class="text-center">
+                        <img src='images/comments.png' width="150px" height="240px"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Most of the code for our App Inventor app.</td>
+                    <td>Design for the game screen in our app.</td>
+                    <td>
                         Feedback from classmates and instructions for our App Inventor game from our documentation. 
                         <strong>
                             <a href="https://docs.google.com/document/d/1o9zKLy3AUfwFyxeDKZieXuQNJaA_s_jrAURk_1ItNhQ/edit" target="_blank" class="text-danger">See full documentation...</a>
                         </strong>
-                    </p>
-                </div>
-            </div>
+                    </td>
+                </tr>
+            </table>
             <h2>
                 <br>
             </h2>
@@ -82,12 +81,11 @@
                 <!--text-->
                 <h3 class="text-info" id="PyIM">Python Image Manipulation Project</h3>
                 <!--Class done for, duration-->
-                <h6>
-                    <ul>
-                        <li>Completed for Computer Science Principles class, freshman year</li>
-                        <li>Completed from March 4, 2019 to March 24, 2019, for 3 weeks</li>
-                    </ul>
-                </h6>
+                <p>
+                    <em>
+                        Computer Science Principles, 3 weeks from March 4, 2019 to March 24, 2019
+                    </em>
+                </p>
                 <p class="p-2 bd-highlight medium">
                     In this project, a partner and I used the Python image manipulation modules PIL, numpy, and matplotlib to edit images which meet a goal.
                     Also, we documented our work, partly by explaining our changes to each image and making an activity log.
@@ -101,31 +99,79 @@
                 </p>
             </div>
             <!--images-->
-            <div class="d-flex flex-row bd-highlight mb-3">
-                <div class="card col-sm-4 badge-warning">
-                    <div class="text-center">
-                        <img src='images/computer_front.jpg' width="330px" height="240px" class="p-2 bd-highlight rounded"/>
-                    </div>
-                    <p>An image of the front of a computer that we decided to manipulate.</p>
-                </div>
-                <div class="card col-sm-4 badge-warning">
-                    <div class="text-center">
-                        <img src='images/computer_final_front.jpg' width="330px" height="240px" class="p-2 bd-highlight rounded"/>
-                    </div>
-                    <p>The final manipulated image of the front of the computer.</p>
-                </div>
-                <div class="card col-sm-4 badge-warning">
-                    <div class="text-center">
-                        <img src='images/arrayofimages.png' width="300px" height="300px" class="p-2 bd-highlight rounded"/>
-                    </div>
-                    <p>
+            <table class="table table-success table-bordered col-md-12">
+                <tr>
+                    <td class="text-center">
+                        <img src='images/computer_front.jpg' width="330px" height="240px"/>
+                    </td>
+                    <td class="text-center">
+                        <img src='images/computer_final_front.jpg' width="330px" height="240px"/>
+                    </td>
+                    <td class="text-center">
+                        <img src='images/arrayofimages.png' width="330px" height="240px"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>The initial image of the front of a computer that we decided to manipulate.</td>
+                    <td>The final manipulated image of the front of the computer.</td>
+                    <td>
                         Array of images describing the manipulations we made for each image from our documentation. 
                         <strong>
                             <a href="https://docs.google.com/document/d/1uqq_k_CB4DHhUjyrt2VbqbpQsC2gbX-WidJ63COqQIw/edit" target="_blank" class="text-danger">See full documentation...</a>
                         </strong>
-                    </p>
-                </div>
+                    </td>
+                </tr>
+            </table>
+            <h2>
+                <br>
+            </h2>
+            <!--Mechanical winch-->
+            <div>
+                <!--text-->
+                <h3 class="text-info" id="Winch">Mechanical Winch</h3>
+                <!--Class done for, duration-->
+                <p>
+                    <em>
+                        Principles of Engineering, 2 weeks from October 14, 2019 to October 23, 2019
+                    </em>
+                </p>
+                <p class="p-2 bd-highlight medium">
+                    For this project, three other people and I worked on a physical model of a mechanical winch and a program using
+                    <a href="https://ccl.northwestern.edu/netlogo/" target="_blank">Netlogo</a>
+                    of that winch, which is supposed to model that winch in terms of the behavior of the real-life winch. 
+                    Also, a documentation describing the winch and program's functionality and development were required. 
+                    The physical winch needs to have the ability to lift a mass of 100 grams for 30 centimeters. 
+                    It also needs to be made of only VEX of FischerTech parts, and be powered by a FischerTech motor. 
+                    The simulation of the winch must show how the size of the surface that the rope of the winch coils around and the voltage and amperage of the electrical power used to coil the rope of the winch affects the rate at which the cable of the winch coils and the angular speed of the surface in which the rope coils around. 
+                    During this project, I mainly worked on the program that simulates the behavior of the winch, while I also worked a little bit on the physical prototype of the winch. 
+                    I worked on all parts of the simulations, such as all of the variables affecting the speed at which the winch works on, and the background for the winch model in my simulation. 
+                    On the project documentation, I included pictures of the code and interface for the program. 
+                    I also made the project documentation's formatting neater and more consistant after all of my group members finished their parts of it.
+                </p>
             </div>
+            <!--images-->
+            <table class="table table-success table-bordered col-md-12">
+                <tr>
+                    <td class="text-center">
+                        <img src='images/Netlogointerface.png' width="330px" height="240px"/>
+                    </td>
+                    <td class="text-center">
+                        <img src='images/physicalwinchmodel.png' width="330px" height="240px"/>
+                    </td>
+                    <td class="text-center">
+                        <img src='images/winchmodelsketch.jpeg' width="330px" height="240px"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>The interface for our Netlogo program.</td>
+                    <td>Picture of our final physical prototype for our winch.</td>
+                    <td>Final design sketch for our winch prototype as shown on the documentation. 
+                        <strong>
+                            <a href="https://docs.google.com/document/d/19GOnBdysavBuUhBwmUv5PGXe7LQ6h9slWqpdfb_nfD4/edit" target="_blank" class="text-danger">See full documentation...</a>
+                        </strong>
+                    </td>
+                </tr>
+            </table>
             <h2>
                 <br>
             </h2>
@@ -135,15 +181,11 @@
             <div class="container">
                 <!--gmail-->
                 <a href="https://mail.google.com" target="_blank">
-                    <img src="http://www.techerator.com/wp-content/uploads/2013/06/Gmail-Logo.png" height="75px"/>
-                </a>
-                <!--linkedin-->
-                <a href="https://linkedin.com" target="_blank">
-                    <img src="http://tigerstrypes.com/wp-content/uploads/2014/08/linkedin-vector-080311.png" height="75px" class="align-self-center"/>
+                    <img src="images/Gmail-Logo.png" height="75px"/>
                 </a>
                 <!--school site-->
                 <a href="https://www.dublin.k12.ca.us/dhs" target="_blank">
-                    <img src="https://www.dublin.k12.ca.us/cms/lib/CA01001424/Centricity/Template/GlobalAssets/images///logo/dublin.png" height="75px"  class="float-right"/>
+                    <img src="images/dhslogo.png" height="75px"  class="float-right"/>
                 </a>
             </div>
         </footer>
