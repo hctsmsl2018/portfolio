@@ -33,7 +33,7 @@
             <!--Random Number Generator-->
             <div>
                 <!--text-->
-                <h5 id="Winch">Random Number Generator</h5>
+                <h5 id="RNG">Random Number Generator</h5>
                 <p class="p-2 bd-highlight medium">
                     <!--duration-->
                     <em>2 weeks from January 13, 2021 to January 24, 2021</em>
@@ -43,7 +43,7 @@
                     <br>
                     <br> 
                     <strong>
-                        <a class="text-dark" <!--href="" target="_blank"-->Project documentation coming soon...</a>
+                        <a class="text-danger" href="pdf_documents/RandomNumberGeneratorDocumentation.pdf" target="_blank">See project documentation...</a>
                     </strong>
                     <br> 
                 </p>
@@ -61,7 +61,7 @@
                         <video src='videos/RandomNumberGeneratorDemo.mp4' height="240px" controls></video>
                     </td>
                 </tr>
-                <tr>
+                <tr class="btn-success disabled">
                     <td>Probe output for every cycle of the clock output for the sequential logic part of the circuit.</td>
                     <td>Output for each number for the random number generator.</td>
                     <td>The cycling of the random number generator and generation of random numbers by pressing the switch.</td>
@@ -83,7 +83,7 @@
                     <br>
                     <br>  
                     <strong>
-                        <a class="text-dark"<!--href="" target="_blank"-->Project documentation coming soon...</a>
+                        <a class="text-danger" href="pdf_documents/BinaryCounterDocumentation.pdf" target="_blank">See project documentation...</a>
                     </strong>
                     <br> 
                 </p>
@@ -92,19 +92,23 @@
             <table class="table table-success table-bordered col-md-12">
                 <tr>
                     <td class="text-center">
-                        <img src='images/BinaryCounterCircuitDiagram.png' width="500px" height="240px"/>
-                    </td>
-                    <td class="text-center">
                         <img src='images/BinaryCircuitClockSignal.png' width="350px" height="240px"/>
                     </td>
                     <td class="text-center">
-                        <video src='videos/BinaryCounter.MOV' height="240px" controls></video>
+                      <video src='videos/BinaryCounter.MOV' height="240px" controls></video>
                     </td>
                 </tr>
-                <tr>
-                    <td>Circuit diagram of binary counter on Multisim circuit design software.</td>
+                <tr class="btn-success disabled">
                     <td>Signals representing the value of each output on the circuit from A to D over time.</td>
                     <td>The counting of the random number generator built on a breadboard.</td>
+                </tr>
+                <tr>
+                  <td class="text-center" colspan="2">
+                      <img src='images/BinaryCounterCircuitDiagram.png' width="600px" height="240px"/>
+                  </td>
+                </tr>
+                <tr class="btn-success disabled">
+                  <td colspan="2">Circuit diagram of binary counter on Multisim circuit design software.</td>
                 </tr>
             </table>
             <h2>
@@ -115,7 +119,7 @@
                 <!--text-->
                 <h3 class="text-info">AP Computer Science A</h3>
                 <br>
-                <h5>Chatbot Project</h5>
+                <h5 id="Chatbot">Chatbot Project</h5>
                 <p class="p-2 bd-highlight medium">
                     <!--Class done for, duration-->
                     <em>3 weeks from March 1, 2021 to March 23, 2021</em>
@@ -130,7 +134,7 @@
                     <br> 
                     <br> 
                     <strong>
-                        <a href="code/Chatbot.java" target="_blank" class="text-danger">View project code...</a>
+                        <a href="code/Chatbot.java" target="_blank" class="text-danger">See project code...</a>
                     </strong>
                     <br> 
                 </p>
@@ -139,24 +143,23 @@
             <table class="table table-success table-bordered col-md-12">
                 <tr>
                     <td class="text-center">
-                        <img src='images/ChatbotMainMethod.PNG' width="330px" height="240px"/>
+                      <img src='images/ChatbotMainMethod.PNG' width="330px" height="240px"/>
                     </td>
                     <td class="text-center">
-                        <img src='images/ChatbotCodeMethod.PNG' width="430px" height="240px"/>
-                    </td>
-                    <td class="text-center">
-                        <img src='images/ChatbotConversation.PNG' width="470px" height="240px"/>
+                      <img src='images/ChatbotCodeMethod.PNG' width="430px" height="240px"/>
                     </td>
                 </tr>
-                <tr>
+                <tr class="btn-success disabled">
                     <td>Image of the executable main method in the chatbot code.</td>
                     <td>Image of a method in the chatbot code selecting what type of information in the user's input will be used to create the output.</td>
-                    <td>
-                      First six lines of a conversation between our chatbot and a chatbot created by other students. Our chatbot is represented by T1.
-                      <strong>
-                        <a href="pdf_documents/Chatbot conversation.pdf" target="_blank" class="text-danger">View full conversation...</a>
-                      </strong>
-                    </td>
+                </tr>
+                <tr>
+                  <td class="text-center" colspan="2">
+                    <img src='images/ChatbotConversation.PNG' width="470px" height="240px"/>
+                  </td>
+                </tr>
+                <tr class="btn-success disabled">
+                  <td colspan="2">First six lines of a conversation between our chatbot and a chatbot created by other students. Our chatbot is represented by T1.</td>
                 </tr>
             </table>
             <h2>
@@ -189,19 +192,23 @@
             <table class="table table-success table-bordered col-md-12">
                 <tr>
                     <td class="text-center">
-                        <img src='images/OriginalGame.png' width="330px" height="240px"/>
+                      <img src='images/OriginalGame.png' width="330px" height="240px"/>
                     </td>
                     <td class="text-center">
-                        <img src='images/EducationalGame.png' width="330px" height="240px"/>
-                    </td>
-                    <td class="text-center">
-                        <img src='images/TriviaQuestionFunctionality.png' width="470px" height="240px"/>
+                      <img src='images/EducationalGame.png' width="330px" height="240px"/>
                     </td>
                 </tr>
-                <tr>
+                <tr class="btn-success disabled">
                     <td>Image of the original game we modified to create our educational game.</td>
                     <td>Image of the educational game we created.</td>
-                    <td>Code used to select a random question in the game.</td>
+                </tr>
+                <tr>
+                  <td class="text-center" colspan="2">
+                    <img src='images/TriviaQuestionFunctionality.png' width="550px" height="240px"/>    
+                  </td>
+                </tr>
+                <tr class="btn-success disabled">
+                  <td colspan="2">Code used to select a random question in the game.</td>
                 </tr>
             </table>
             <h2>
@@ -230,7 +237,7 @@
                     <br> 
                     <br> 
                     <strong>
-                        <a href="code/NumbersRiddle.java" target="_blank" class="text-danger">View project code...</a>
+                        <a href="code/NumbersRiddle.java" target="_blank" class="text-danger">See project code...</a>
                     </strong>
                     <br> 
                 </p>
@@ -239,19 +246,23 @@
             <table class="table table-success table-bordered col-md-12">
                 <tr>
                     <td class="text-center">
-                        <img src='images/NumberRiddleCode.png' width="330px" height="240px"/>
+                      <img src='images/NumberRiddleCode.png' width="330px" height="240px"/>
                     </td>
                     <td class="text-center">
-                        <img src='images/OtherTeamEvaluation.PNG' width="470px" height="240px"/>
-                    </td>
-                    <td class="text-center">
-                        <img src='images/MilestoneChart.PNG' width="330px" height="240px"/>
+                      <img src='images/MilestoneChart.PNG' width="330px" height="240px"/>
                     </td>
                 </tr>
-                <tr>
+                <tr class="btn-success disabled">
                     <td>Final version of the code we created for the project and output.</td>
-                    <td>Evaluation results and feedback on my team's code by another team.</td>
                     <td>Milestone chart used for this project.</td>
+                </tr>
+                <tr>
+                  <td class="text-center" colspan="2">
+                    <img src='images/OtherTeamEvaluation.PNG' width="600px" height="240px"/>   
+                  </td>
+                </tr>
+                <tr class="btn-success disabled">
+                  <td colspan="2">Evaluation results and feedback on my team's code by another team.</td>
                 </tr>
             </table>
             <h2>
@@ -295,7 +306,7 @@
                         <img src='images/insulationlayerdiagram.png' width="330px" height="240px"/>
                     </td>
                 </tr>
-                <tr>
+                <tr class="btn-success disabled">
                     <td>Picture of my team's insulation.</td>
                     <td>Side view of our insulation.</td>
                     <td>Diagram describing each layer of my team's insulation.</td>
@@ -342,7 +353,7 @@
                         <img src='images/winchmodelsketch.jpeg' width="330px" height="240px"/>
                     </td>
                 </tr>
-                <tr>
+                <tr class="btn-success disabled">
                     <td>The interface for our NetLogo program.</td>
                     <td>The final physical prototype for our winch.</td>
                     <td>Final design sketch for our winch prototype as shown on the documentation.</td>
@@ -389,7 +400,7 @@
                         <img src='images/arrayofimages.png' width="330px" height="240px"/>
                     </td>
                 </tr>
-                <tr>
+                <tr class="btn-success disabled">
                     <td>The initial image of the front of a computer that we decided to manipulate.</td>
                     <td>The final manipulated image of the front of the computer.</td>
                     <td>Array of images describing the manipulations we made for each image from our documentation.</td>
@@ -438,7 +449,7 @@
                         <img src='images/comments.png' width="150px" height="240px"/>
                     </td>
                 </tr>
-                <tr>
+                <tr class="btn-success disabled">
                     <td>Most of the code for our App Inventor app.</td>
                     <td>Design for the game screen in our app.</td>
                     <td>Feedback from classmates and instructions for our App Inventor game from our documentation.</td>
